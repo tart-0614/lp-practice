@@ -1,1 +1,265 @@
 @charset "utf-8";
+/* ヘッダー全体 */
+.header {
+  background-color: #fff;
+  padding: 20px 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ヘッダー内の横並びレイアウト */
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ロゴ画像 */
+.logo img {
+  height: 40px;
+}
+
+/* ナビゲーション */
+.header-nav .nav-list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.header-nav .nav-list a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.header-nav .nav-list a:hover {
+  color: #ff6600;
+}
+
+/* キービジュアルセクション */
+.keyvisual {
+  background-image: url("../images/keyvisual/keyvisual.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* 内側のテキスト */
+.keyvisual-inner {
+  max-width: 800px;
+}
+
+/* キャッチコピー */
+.catchcopy {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* サブテキスト */
+.subtext {
+  font-size: 20px;
+}
+
+/* NEWSセクション全体 */
+.news {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* セクションタイトル */
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  border-bottom: 3px solid #ff6600;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+}
+
+/* ニュースリスト */
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ニュース項目 */
+.news-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* ニュース画像 */
+.news-item img {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 4px;
+}
+
+/* ニューステキスト */
+.news-text time {
+  font-size: 14px;
+  color: #666;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.news-text p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+/* サービス紹介セクション */
+.service {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+/* アイテムの並び */
+.service-list {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* 各サービス項目 */
+.service-item {
+  flex: 1 1 300px;
+  background-color: #fdfdfd;
+  padding: 24px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* アイコン画像 */
+.service-item img {
+  width: 60px;
+  margin-bottom: 16px;
+}
+
+/* サービスのタイトル */
+.service-title {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+/* 説明文 */
+.service-text {
+  font-size: 16px;
+  color: #666;
+}
+
+/* アクセスセクション */
+.access {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.access-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.access-content img {
+  width: 60px;
+  height: 60px;
+}
+
+.access-info p {
+  margin: 4px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+/* お問い合わせセクション */
+.contact {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.contact-text {
+  font-size: 16px;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.contact-button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-button {
+  display: inline-block;
+  background-color: #ff6600;
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #e05500;
+}
+
+/* フッター */
+.footer {
+  background-color: #f7f7f7;
+  padding: 40px 20px;
+  border-top: 1px solid #ddd;
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 16px;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+  color: #ff6600;
+}
