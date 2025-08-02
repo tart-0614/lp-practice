@@ -1,12 +1,10 @@
 @charset "utf-8";
-/* ヘッダー全体 */
 .header {
   background-color: #fff;
   padding: 20px 40px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* ヘッダー内の横並びレイアウト */
 .header-inner {
   max-width: 1200px;
   margin: 0 auto;
@@ -15,12 +13,10 @@
   justify-content: space-between;
 }
 
-/* ロゴ画像 */
 .logo img {
   height: 40px;
 }
 
-/* ナビゲーション */
 .header-nav .nav-list {
   display: flex;
   gap: 24px;
@@ -38,7 +34,6 @@
   color: #ff6600;
 }
 
-/* キービジュアルセクション */
 .keyvisual {
   background-image: url("../images/keyvisual/keyvisual.jpg");
   background-size: cover;
@@ -52,31 +47,26 @@
   padding: 0 20px;
 }
 
-/* 内側のテキスト */
 .keyvisual-inner {
   max-width: 800px;
 }
 
-/* キャッチコピー */
 .catchcopy {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-/* サブテキスト */
 .subtext {
   font-size: 20px;
 }
 
-/* NEWSセクション全体 */
 .news {
   max-width: 1200px;
   margin: 60px auto;
   padding: 0 20px;
 }
 
-/* セクションタイトル */
 .section-title {
   font-size: 28px;
   font-weight: bold;
@@ -85,21 +75,18 @@
   margin-bottom: 24px;
 }
 
-/* ニュースリスト */
 .news-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* ニュース項目 */
 .news-item {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
 }
 
-/* ニュース画像 */
 .news-item img {
   width: 120px;
   height: 80px;
@@ -108,7 +95,6 @@
   border-radius: 4px;
 }
 
-/* ニューステキスト */
 .news-text time {
   font-size: 14px;
   color: #666;
@@ -122,14 +108,12 @@
   color: #333;
 }
 
-/* サービス紹介セクション */
 .service {
   max-width: 1200px;
   margin: 80px auto;
   padding: 0 20px;
 }
 
-/* アイテムの並び */
 .service-list {
   display: flex;
   gap: 40px;
@@ -137,7 +121,6 @@
   flex-wrap: wrap;
 }
 
-/* 各サービス項目 */
 .service-item {
   flex: 1 1 300px;
   background-color: #fdfdfd;
@@ -147,26 +130,22 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-/* アイコン画像 */
 .service-item img {
   width: 60px;
   margin-bottom: 16px;
 }
 
-/* サービスのタイトル */
 .service-title {
   font-size: 20px;
   margin-bottom: 12px;
   color: #333;
 }
 
-/* 説明文 */
 .service-text {
   font-size: 16px;
   color: #666;
 }
 
-/* アクセスセクション */
 .access {
   max-width: 1200px;
   margin: 80px auto;
@@ -190,7 +169,6 @@
   color: #333;
 }
 
-/* お問い合わせセクション */
 .contact {
   max-width: 1200px;
   margin: 80px auto;
@@ -224,7 +202,6 @@
   background-color: #e05500;
 }
 
-/* フッター */
 .footer {
   background-color: #f7f7f7;
   padding: 40px 20px;
